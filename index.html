@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Bonbon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="icon" href="/img/sho.jpg" type="image/gif" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Equation</title>
+</head>
+<body>
+    <h1>
+        LINEAR EQUATION
+    </h1>
+    <div class="steps">
+        <p>
+                1. Remove any parentheses and combine like terms, if possible, on each
+                side of the equation.
+            </p>
+
+                2. Clear any fractions by multiplying all terms on both sides by the LCD
+                (least common denominator).
+            </p>
+
+                3. Group like terms on each side of the equal sign.
+            </p>
+
+                4. Isolate the "x term" (variable) on one side of the equation by adding or
+                subtracting to combine like terms across the equal sign.       
+            
+            </p>
+
+                5. Divide or multiply both sides of the equation by the coefficient of the
+                variable to solve for "x".        
+            </p>
+
+                6. Check the solution by substituting your answer into the original
+                equation wherever you have a variable. If the solution is correct, both
+                sides of the equation will be equal.        
+             </p>
+
+        </p>
+
+    </div>
+<div class="calc">
+    <form name="matrix">
+
+            <table>
+            <br><tbody><tr>
+            <td><input type="text" name="a11" size="3" > <i>x</i> +</td>
+            <td><input type="text" name="a12" size="3" > <i>y</i> +</td>
+            <td><input type="text" name="a13" size="3" > <i>z</i> =</td>
+            <td>
+            <input type="text" name="a14" size="3"></td></tr>
+            <tr>
+            <td><input type="text" name="a21" size="3" > <i>x</i> +</td>
+            <td><input type="text" name="a22" size="3" > <i>y</i> +</td>
+            <td><input type="text" name="a23" size="3" > <i>z</i> =</td>
+            <td>
+            <input type="test" name="a24" size="3"></td></tr>
+            <tr>
+            <td><input type="text" name="a31" size="3" > <i>x</i> +</td>
+            <td><input type="text" name="a32" size="3" > <i>y</i> +</td>
+            <td><input type="text" name="a33" size="3" > <i>z</i> =</td>
+            <td>
+            <input type="text" name="a34" size="3"></td></tr>
+            </tbody></table>
+            
+            </td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            
+            <p>
+            <table cellspacing="4" cellpadding="4"><tbody><tr>
+            <td valign="RIGHT" align="LEFT">&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="Solve" size="10" onclick="solve(matrix)">
+            
+            </td></tr><tr><td align="CENTER">
+            
+            <i>x</i> = <input type="text" name="x1" size="10"></td></tr>
+            <tr><td align="CENTER">
+            <i>y</i> = <input type="text" name="x2" size="10"></td></tr>
+            <tr><td align="CENTER">
+            <i>z</i> = <input type="text" name="x3" size="10"></td></tr>
+            </tbody></table></p>
+            
+            <p><input type="reset" value="Reset"></p>
+            </form>
+            
+
+        </div>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
